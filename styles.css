@@ -1,12 +1,10 @@
 body {
-
     width: 75%;
     /* margin: 0; */
     margin-left: auto;
     margin-right: auto;
     padding: 0;
 }
-
 .container {
     position: relative;
     /* text-align: center; */
