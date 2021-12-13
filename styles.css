@@ -1,15 +1,17 @@
 body {
-    
+
     width: 75%;
     /* margin: 0; */
     margin-left: auto;
     margin-right: auto;
     padding: 0;
 }
-.container{
+
+.container {
     position: relative;
     /* text-align: center; */
 }
+
 .middle {
     /* border: blue solid; */
     position: absolute;
@@ -17,35 +19,35 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .middle img {
     background-color: white;
     margin: auto;
     border-radius: 50%;
-    display:block;
-    width:200px;
+    display: block;
+    width: 200px;
 }
-/* p {
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
-    font-weight: 2px;
-} */
 
 .intro {
     /* border: blue solid; */
     margin-top: 30px;
 }
+
 .roughwork {
     width: 80%;
 }
+
 .modelRough {
     /* border: solid black; */
-    width:75%;
+    width: 75%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .modelBox {
     background-color: #d8d8d8;
 }
+
 .boxL {
     margin-top: 30px;
     width: 50%;
@@ -64,34 +66,25 @@ body {
     width: 50%;
     height: auto;
 }
-.boxR img{
-    width:auto;
+
+.boxR img {
+    width: auto;
     height: 38%;
 }
-.about{
+
+.about {
     border: black solid;
     position: absolute;
     margin-top: 100px;
     width: 75%;
-   
-}
 
+}
 
 .fontsize {
     font-family: 'Roboto', sans-serif;
     /* font-weight: 300; */
     font-size: 22px;
 }
-
-/* .box {
-    margin: 30px auto;
-    width: 25%;
-    border-radius: 20px;
-    color: white;
-    padding: 3px;
-    font-size: 25px;
-    background-color: #7e4a7e;
-} */
 
 .overlay {
     position: absolute;
@@ -104,19 +97,22 @@ body {
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
-  }
-  .overlayBox .overlay {
-      opacity: 1;
-  }
+}
+
+.overlayBox .overlay {
+    opacity: 1;
+}
+
 .brandingDesc {
     /* border: solid red; */
-    width:75%;
+    width: 75%;
 }
-.motionDesc{
+
+.motionDesc {
     margin-top: 50px;
     margin-bottom: 100px;
     /* border: solid red; */
-    
+
 }
 
 .descriptions {
@@ -124,10 +120,16 @@ body {
 }
 
 
-a.three:link {color:black;}
-a.three:visited {color:black;}
+a.three:link {
+    color: black;
+}
+
+a.three:visited {
+    color: black;
+}
+
 a.three:hover {
-    background:purple;
+    background: purple;
     color: white;
 }
 
@@ -148,6 +150,7 @@ a.three:hover {
         width: 20%;
         float: left;
     }
+
     video {
         width: 80%;
         height: auto;
@@ -157,7 +160,7 @@ a.three:hover {
 video {
     display: block;
     margin: auto;
-  
+
 }
 
 .navbar {
@@ -184,10 +187,10 @@ video {
 }
 
 .nav-link {
-    
+
     text-align: right;
     background-color: white;
-    
+
 }
 
 .nav-link:hover, .dropdown-item:hover {
@@ -212,20 +215,23 @@ h3 {
     font-size: 25;
     font-weight: 400;
 }
-a:link{
+
+a:link {
     text-decoration: none;
 }
 
 .boxL a:hover, a:active {
     background-color: purple;
-    color:white;
+    color: white;
 
 }
+
 .boxR a:hover, a:active {
     background-color: purple;
-    color:white;
+    color: white;
 
 }
+
 p, a {
     color: black;
     font-size: 20px;
